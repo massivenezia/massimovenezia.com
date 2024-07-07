@@ -8,7 +8,7 @@ body, html, #root {
 
 .container {
   position: relative;
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
   background: url('/background.jpg') no-repeat center center;
   background-size: cover;
   display: flex;
@@ -16,67 +16,56 @@ body, html, #root {
   align-items: center;
 }
 
-.top-left, .top-right, .center, .bottom-center {
+.clickable {
   position: absolute;
-  cursor: pointer;
+  cursor:pointer;
+  background: rgba(255, 255, 255, 0.5); 
+  border-radius: 0%; 
 }
 
 .top-left {
-  top: 5%; /* Adjust top position as needed */
-  left: 5%; /* Adjust left position as needed */
+  top: 4.5vw; 
+  left: 5.5vw;
+  width: 27vw; 
+  height: 3vw; 
 }
 
 .top-right {
-  top: 5%; /* Adjust top position as needed */
-  right: 5%; /* Adjust right position as needed */
+  background: none;
+  top: 2.3vw;
+  right: 5.5vw; 
 }
 
 .top-right ul {
+  background: none; 
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .top-right li {
-  background: rgba(255, 255, 255, 0.5); /* Semi-transparent background for visibility */
-  border-radius: 10%; /* Makes the clickable areas circular */
-  width: 5vw; /* Adjust width as needed */
-  height: 5vw; /* Adjust height as needed */
+  background: rgba(255, 255, 255, 0.5); 
+  border-radius: 0%; 
+  width: 18vw; 
+  height: 2.4vw; 
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2vh; /* Adjust margin as needed */
+  margin-bottom: 0.01vh; 
 }
 
 .center {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 35vw; 
+  height: 7vw; 
 }
 
 .bottom-center {
-  bottom: 5%; /* Adjust bottom position as needed */
+  bottom: 6vw; 
   left: 50%;
   transform: translateX(-50%);
-}
-
-.top-left{
-  width: 5vw; /* Adjust width as needed */
-  height: 5vw; /* Adjust height as needed */
-  background: rgba(255, 255, 255, 0.5); /* Semi-transparent background for visibility */
-  border-radius: 10%; /* Makes the clickable areas circular */
-}
-
-.center{
-  width: 5vw; /* Adjust width as needed */
-  height: 5vw; /* Adjust height as needed */
-  background: rgba(255, 255, 255, 0.5); /* Semi-transparent background for visibility */
-  border-radius: 10%; /* Makes the clickable areas circular */
-}
-
-.bottom-center {
-  width: 5vw; /* Adjust width as needed */
-  height: 5vw; /* Adjust height as needed */
-  background: rgba(255, 255, 255, 0.5); /* Semi-transparent background for visibility */
-  border-radius: 10%; /* Makes the clickable areas circular */
+  width: 42vw; 
+  height: 3vw; 
 }
