@@ -4,6 +4,7 @@ body, html, #root {
   height: 100%;
   width: 100%;
   font-family: Arial, sans-serif;
+  overflow: hidden;
 }
 
 .container {
@@ -19,51 +20,34 @@ body, html, #root {
 .clickable {
   position: absolute;
   cursor:pointer;
-  background: rgba(255, 255, 255, 0.0); 
+  background: rgba(255, 255, 255, 0.5); 
   border-radius: 0%; 
 }
 
 .top-left {
-  top: 4.5vw; 
+  top: calc(50% - 20vw); 
   left: 5.5vw;
-  width: 27vw; 
+  width: 23vw; 
   height: 3vw; 
 }
 
 .top-right {
-  background: none;
-  top: 2.3vw;
-  right: 5.5vw; 
-}
-
-.top-right ul {
-  background: none; 
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.top-right li {
-  background: rgba(255, 255, 255, 0.0); 
-  border-radius: 0%; 
-  width: 18vw; 
-  height: 2.4vw; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 0.01vh; 
+  top: calc(50% - 21vw); 
+  right: 5.5vw;
+  width: 23vw; 
+  height: 6vw; 
 }
 
 .center {
-  top: 50%;
+  top: 49%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 35vw; 
-  height: 7vw; 
+  width: 50vw; 
+  height: 9vw; 
 }
 
 .bottom-center {
-  bottom: 6vw; 
+  bottom: calc(50% - 18vw); 
   left: 50%;
   transform: translateX(-50%);
   width: 42vw; 

@@ -1,0 +1,49 @@
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  height: 100vh; 
+  background: url('/background1.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clickable {
+  position: absolute;
+  cursor:pointer;
+  background: rgba(255, 255, 255, 0.5); 
+  border-radius: 0%; 
+}
+
+.x {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw; 
+  height: 9vw; 
+}
+
+.instagram {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw; 
+  height: 9vw; 
+}
+
+.linkedin {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw; 
+  height: 9vw; 
+}
