@@ -16,7 +16,7 @@ function SocialMedia() {
   return (
     <div className="container2">
       <div className="clickable2 x" onClick={() => handleClick('https://x.com/massivenezia')}></div>
-      <div className="clickable2 instagram" onClick={() => handleClick('https://instagram.com/massiveneziaa')}></div>
+      <div className="clickable2 instagram" onClick={() => handleClick('https://instagram.com/massivenezia')}></div>
       <div className="clickable2 linkedin" onClick={() => handleClick('https://linkedin.com/in/massivenezia')}></div>
       <div className="clickable2 info" onClick={() => handleNavigate('/')}></div>
     </div>
