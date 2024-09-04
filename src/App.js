@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.css'; // For custom styling
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="content">
+        <h1>Massimo</h1>
+        <h2>/'masːimo/ noun</h2>
+        <hr />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          contact@massimovenezia.com
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
 }
